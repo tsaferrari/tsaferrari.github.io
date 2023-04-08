@@ -3,6 +3,9 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+  
   <title>UK Salary Calculator</title>
 </head>
 <body>
@@ -17,8 +20,8 @@
       <label for="salary">Gross Salary (£):</label>
       <input type="number" id="salary" name="salary" min="0" oninput="validity.valid||(value='');" placeholder="Enter Salary in GBP"required><br><br>
       
-      <label for="pension">Pension Contributions (£):</label>
-      <input type="number" id="pension" name="pension" min="0" oninput="validity.valid||(value='');" placeholder="Pension in GBP (optional)"><br><br>
+      <label for="pension">Employee Pension Contribution (£):</label>
+      <input type="number" id="pension" name="pension" min="0" oninput="validity.valid||(value='');" placeholder="Employee Pension in GBP(optional)"><br><br>
       
       <input type="submit" value="Calculate">
       <p id="show_text" class="user_text"></p>
